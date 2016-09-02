@@ -5,7 +5,7 @@ namespace mrpsdk\endpointTraits\setters;
 trait GalleryTypeTrait
 {
     /**
-     * Sets the parent gallery id for the api call
+     * Sets the gallery type for the api call
      *
      * @param  string $type
      * @return        $this

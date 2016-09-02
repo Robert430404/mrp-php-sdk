@@ -5,12 +5,12 @@ namespace mrpsdk\endpointTraits\setters;
 trait GalleryOrderTrait
 {
     /**
-     * Sets the parent gallery id for the api call
+     * Sets the gallery order for the api call
      *
      * @param  string $order
      * @return        $this
      */
-    public function setGalleryType($order = 'rankAsc')
+    public function setGalleryOrder($order = 'rankAsc')
     {
         if (isset($this->requestData['GalleryOrder'])) {
             unset($this->requestData['GalleryOrder']);
