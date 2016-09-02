@@ -10,6 +10,11 @@ use mrpsdk\endpointTraits\setters\DriverCountTrait;
 use mrpsdk\endpointTraits\setters\ScheduleIdTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class PointsEndpoint
+ *
+ * @package mrpsdk\endpoints\points
+ */
 class PointsEndpoint
 {
     /**

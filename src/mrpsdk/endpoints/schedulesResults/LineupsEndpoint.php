@@ -9,6 +9,11 @@ use mrpsdk\endpointTraits\setters\ClassIdTrait;
 use mrpsdk\endpointTraits\setters\EventIdTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class LineupsEndpoint
+ *
+ * @package mrpsdk\endpoints\schedulesResults
+ */
 class LineupsEndpoint
 {
     /**

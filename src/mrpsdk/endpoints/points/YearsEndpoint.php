@@ -6,6 +6,11 @@ use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class YearsEndpoint
+ *
+ * @package mrpsdk\endpoints\points
+ */
 class YearsEndpoint
 {
     /**

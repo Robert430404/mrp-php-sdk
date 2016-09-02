@@ -7,6 +7,11 @@ use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\setters\ScheduleYearTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class ScheduleEndpoint
+ *
+ * @package mrpsdk\endpoints\points
+ */
 class ScheduleEndpoint
 {
     /**

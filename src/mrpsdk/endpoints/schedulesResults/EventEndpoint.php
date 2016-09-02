@@ -11,6 +11,11 @@ use mrpsdk\endpointTraits\setters\IncludeClassTrait;
 use mrpsdk\endpointTraits\setters\IncludeResultsTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class EventEndpoint
+ *
+ * @package mrpsdk\endpoints\schedulesResults
+ */
 class EventEndpoint
 {
     /**

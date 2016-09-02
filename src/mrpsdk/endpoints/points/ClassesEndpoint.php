@@ -12,6 +12,11 @@ use mrpsdk\endpointTraits\setters\IncludePointsTrait;
 use mrpsdk\endpointTraits\setters\ScheduleIdTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class ClassesEndpoint
+ *
+ * @package mrpsdk\endpoints\points
+ */
 class ClassesEndpoint
 {
     /**

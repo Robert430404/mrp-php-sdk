@@ -12,6 +12,11 @@ use mrpsdk\endpointTraits\setters\EventIdTrait;
 use mrpsdk\endpointTraits\setters\RaceCountTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class ResultsEndpoint
+ *
+ * @package mrpsdk\endpoints\schedulesResults
+ */
 class ResultsEndpoint
 {
     /**

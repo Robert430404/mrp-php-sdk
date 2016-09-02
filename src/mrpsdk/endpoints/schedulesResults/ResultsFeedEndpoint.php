@@ -10,6 +10,11 @@ use mrpsdk\endpointTraits\setters\DriverCountTrait;
 use mrpsdk\endpointTraits\setters\EventCountTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class ResultsFeedEndpoint
+ *
+ * @package mrpsdk\endpoints\schedulesResults
+ */
 class ResultsFeedEndpoint
 {
     /**

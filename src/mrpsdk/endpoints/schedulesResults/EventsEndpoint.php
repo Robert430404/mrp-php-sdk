@@ -18,6 +18,11 @@ use mrpsdk\endpointTraits\setters\TagIdTrait;
 use mrpsdk\endpointTraits\setters\TagTypeTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class EventsEndpoint
+ *
+ * @package mrpsdk\endpoints\schedulesResults
+ */
 class EventsEndpoint
 {
     /**

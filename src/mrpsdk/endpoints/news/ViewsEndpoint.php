@@ -10,6 +10,11 @@ use mrpsdk\endpointTraits\setters\NewsIdTrait;
 use mrpsdk\endpointTraits\setters\StartDateTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class ViewsEndpoint
+ *
+ * @package mrpsdk\endpoints\news
+ */
 class ViewsEndpoint
 {
     /**

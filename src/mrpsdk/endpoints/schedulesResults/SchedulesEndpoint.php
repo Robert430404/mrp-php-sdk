@@ -8,6 +8,11 @@ use mrpsdk\endpointTraits\getters\UrlParamsTrait;
 use mrpsdk\endpointTraits\setters\ScheduleYearTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class SchedulesEndpoint
+ *
+ * @package mrpsdk\endpoints\schedulesResults
+ */
 class SchedulesEndpoint
 {
     /**

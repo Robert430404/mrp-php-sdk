@@ -19,6 +19,11 @@ use mrpsdk\endpointTraits\setters\TagTypeTrait;
 use mrpsdk\endpointTraits\setters\UserIdTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class NewsEndpoint
+ *
+ * @package mrpsdk\endpoints\news
+ */
 class NewsEndpoint
 {
     /**

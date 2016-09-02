@@ -14,6 +14,11 @@ use mrpsdk\endpointTraits\setters\ScheduleIdTrait;
 use mrpsdk\endpointTraits\setters\StartDateTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class DriverPassesEndpoint
+ *
+ * @package mrpsdk\endpoints\schedulesResults
+ */
 class DriverPassesEndpoint
 {
     /**

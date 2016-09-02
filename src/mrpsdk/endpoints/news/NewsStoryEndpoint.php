@@ -10,6 +10,10 @@ use mrpsdk\endpointTraits\setters\IncludeTagsTrait;
 use mrpsdk\endpointTraits\setters\NewsIdTrait;
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class NewsStoryEndpoint
+ * @package mrpsdk\endpoints\news
+ */
 class NewsStoryEndpoint
 {
     /**

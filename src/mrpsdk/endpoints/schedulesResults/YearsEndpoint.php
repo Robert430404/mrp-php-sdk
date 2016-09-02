@@ -4,6 +4,11 @@ namespace mrpsdk\endpoints\schedulesResults;
 
 use mrpsdk\helpers\RequestHelpers;
 
+/**
+ * Class YearsEndpoint
+ *
+ * @package mrpsdk\endpoints\schedulesResults
+ */
 class YearsEndpoint
 {
     /**
