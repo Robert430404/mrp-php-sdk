@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\schedulesResults;
 
+use mrpsdk\endpointInterfaces\schedulesResults\ResultsFeedInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
@@ -15,7 +16,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\schedulesResults
  */
-class ResultsFeedEndpoint
+class ResultsFeedEndpoint implements ResultsFeedInterface
 {
     /**
      * Setters Traits Used In Endpoint

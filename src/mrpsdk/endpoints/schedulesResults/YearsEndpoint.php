@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\schedulesResults;
 
+use mrpsdk\endpointInterfaces\schedulesResults\YearsInterface;
 use mrpsdk\helpers\RequestHelpers;
 
 /**
@@ -9,7 +10,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\schedulesResults
  */
-class YearsEndpoint
+class YearsEndpoint implements YearsInterface
 {
     /**
      * @var string

@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\points;
 
+use mrpsdk\endpointInterfaces\points\ClassesInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
@@ -17,7 +18,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\points
  */
-class ClassesEndpoint
+class ClassesEndpoint implements ClassesInterface
 {
     /**
      * Setter Traits Used Inside The Endpoint

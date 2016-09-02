@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\schedulesResults;
 
+use mrpsdk\endpointInterfaces\schedulesResults\EventsInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
@@ -23,7 +24,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\schedulesResults
  */
-class EventsEndpoint
+class EventsEndpoint implements EventsInterface
 {
     /**
      * Setters Traits Used In Class

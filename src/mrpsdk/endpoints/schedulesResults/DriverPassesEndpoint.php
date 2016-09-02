@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\schedulesResults;
 
+use mrpsdk\endpointInterfaces\schedulesResults\DriverPassesInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
@@ -19,7 +20,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\schedulesResults
  */
-class DriverPassesEndpoint
+class DriverPassesEndpoint implements DriverPassesInterface
 {
     /**
      * Setters Traits Used In Endpoint

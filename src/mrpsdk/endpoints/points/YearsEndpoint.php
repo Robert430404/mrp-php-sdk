@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\points;
 
+use mrpsdk\endpointInterfaces\points\YearsInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\helpers\RequestHelpers;
@@ -11,7 +12,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\points
  */
-class YearsEndpoint
+class YearsEndpoint implements YearsInterface
 {
     /**
      * Getters Traits Used In Endpoint

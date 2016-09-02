@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\news;
 
+use mrpsdk\endpointInterfaces\news\ViewsInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
@@ -15,7 +16,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\news
  */
-class ViewsEndpoint
+class ViewsEndpoint implements ViewsInterface
 {
     /**
      * Setters Traits Used In Endpoint

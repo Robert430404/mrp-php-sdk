@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\points;
 
+use mrpsdk\endpointInterfaces\points\ScheduleInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\setters\ScheduleYearTrait;
@@ -12,7 +13,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\points
  */
-class ScheduleEndpoint
+class ScheduleEndpoint implements ScheduleInterface
 {
     /**
      * Setters Traits Used In Endpoint

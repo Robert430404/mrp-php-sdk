@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\galleries;
 
+use mrpsdk\endpointInterfaces\galleries\GalleriesSingleInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
@@ -14,7 +15,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\schedulesResults
  */
-class GalleriesSingleEndpoint
+class GalleriesSingleEndpoint implements GalleriesSingleInterface
 {
     /**
      * Setters Traits Used In Endpoint

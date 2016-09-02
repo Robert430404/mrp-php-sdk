@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\schedulesResults;
 
+use mrpsdk\endpointInterfaces\schedulesResults\DriverStatsInterface;
 use mrpsdk\helpers\RequestHelpers;
 
 /**
@@ -9,7 +10,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\schedulesResults
  */
-class DriverStatsEndpoint
+class DriverStatsEndpoint implements DriverStatsInterface
 {
     /**
      * @var string
