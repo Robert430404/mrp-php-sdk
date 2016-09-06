@@ -1,78 +1,59 @@
 <?php
 
-namespace mrpsdk\endpoints\media;
+namespace mrpsdk\tests\endpoints\media;
 
-use mrpsdk\endpointInterfaces\media\MediaSingleInterface;
-use mrpsdk\endpointTraits\getters\BaseUrlTrait;
-use mrpsdk\endpointTraits\getters\GetRequestTrait;
-use mrpsdk\endpointTraits\getters\UrlParamsTrait;
-use mrpsdk\endpointTraits\setters\IncludeTagsTrait;
-use mrpsdk\endpointTraits\setters\MediaIdTrait;
-use mrpsdk\endpointTraits\setters\MediaTypeTrait;
-use mrpsdk\helpers\RequestHelpers;
+use PHPUnit\Framework\TestCase;
+use mrpsdk\endpoints\media\MediaSingleEndpoint;
 
-/**
- * Class MediaSingleEndpoint
- *
- * @package mrpsdk\endpoints\media
- */
-class MediaSingleEndpoint implements MediaSingleInterface
+class MediaSingleTest extends TestCase
 {
     /**
-     * Setters Traits Used In Endpoint
+     * Test The Methods That Generate The URL for API Call
      */
-    use MediaTypeTrait;
-    use MediaIdTrait;
-    use IncludeTagsTrait;
-
-    /**
-     * Getters Traits Used In Endpoint
-     */
-    use BaseUrlTrait;
-    use UrlParamsTrait;
-    use GetRequestTrait;
-
-    /**
-     * @var string
-     */
-    private $mrpKey;
-
-    /**
-     * @var string
-     */
-    private $baseUrl;
-
-    /**
-     * @var array
-     */
-    private $requestData;
-
-    /**
-     * @var RequestHelpers
-     */
-    private $newRequest;
-
-    /**
-     * MediaSingleEndpoint constructor.
-     *
-     * @param $apiKey
-     */
-    public function __construct($apiKey)
+    public function testBaseUrlGeneration()
     {
-        $this->newRequest   = new RequestHelpers();
-        $this->baseUrl      = 'https://api.myracepass.com/v2/media/';
-        $this->mrpKey       = $apiKey;
-        $this->requestData  = [];
+        $mediaEndpoint = new MediaSingleEndpoint(getenv('MRP_API_KEY'));
+        $url           = $mediaEndpoint->setMediaType('image')
+            ->setIncludeTags('true')
+            ->setMediaId(1)
+            ->getBaseUrl();
 
-        // Preps the baseurl with the api key
-        $this->baseUrl .= '?key=' . $this->mrpKey;
+        $this->assertNotEmpty($url);
+        $this->assertTrue(is_string($url));
+        $this->assertNotFalse(filter_var($url, FILTER_VALIDATE_URL));
     }
 
     /**
-     * Makes sure the created helper object is released
+     * Test The Methods That Create The Data Object From The API Call
      */
-    public function __destruct()
+    public function testDataResponse()
     {
-        unset($this->newRequest);
+        $mediaEndpoint = new MediaSingleEndpoint(getenv('MRP_API_KEY'));
+        $data         = $mediaEndpoint->setMediaType('image')
+            ->setIncludeTags('true')
+            ->setMediaId(1)
+            ->getRequest();
+
+        $this->assertNotEmpty($data);
+        $this->assertTrue(is_object($data));
+        $this->assertEquals(1, $data->RequestValid);
+    }
+
+    /**
+     * This tests the fluent builder to unset duplicate values
+     */
+    public function testParamUnset()
+    {
+        $mediaEndpoint = new MediaSingleEndpoint('MRP_API_KEY');
+        $array          = $mediaEndpoint->setMediaType('image')
+            ->setIncludeTags('true')
+            ->setMediaId(1)
+            ->setMediaType('image')
+            ->setIncludeTags('true')
+            ->setMediaId(1)
+            ->getUrlParams();
+
+        $this->assertTrue(is_array($array));
+        $this->assertEquals(3, count($array));
     }
 }
