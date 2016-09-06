@@ -5,7 +5,7 @@ namespace mrpsdk\endpointTraits\setters;
 trait PullTypeTrait
 {
     /**
-     * Sets the search for the api call
+     * Sets the pull type for the api call
      *
      * @param  string $pullType
      * @return        $this
