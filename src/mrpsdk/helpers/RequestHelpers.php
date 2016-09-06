@@ -10,7 +10,7 @@ class RequestHelpers
      * @param  string $url
      * @return mixed
      */
-    static public function get($url)
+    public static function get($url)
     {
         $curl = curl_init();
 
