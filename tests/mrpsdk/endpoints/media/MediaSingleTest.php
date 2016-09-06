@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\media;
 
+use mrpsdk\endpointInterfaces\media\MediaSingleInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
@@ -15,7 +16,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\media
  */
-class MediaSingleEndpoint
+class MediaSingleEndpoint implements MediaSingleInterface
 {
     /**
      * Setters Traits Used In Endpoint
