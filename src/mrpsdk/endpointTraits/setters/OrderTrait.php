@@ -10,7 +10,7 @@ trait OrderTrait
      * @param  string $order
      * @return        $this
      */
-    public function setOrder($order = 'rankAsc')
+    public function setOrder($order = 'name')
     {
         if (isset($this->requestData['Order'])) {
             unset($this->requestData['Order']);

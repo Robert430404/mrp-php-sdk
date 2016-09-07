@@ -1,6 +1,6 @@
 <?php
 
-namespace mrpsdk\endpoints\points;
+namespace mrpsdk\endpoints\drivers;
 
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
@@ -18,11 +18,11 @@ use mrpsdk\endpointTraits\setters\TagTypeTrait;
 use mrpsdk\helpers\RequestHelpers;
 
 /**
- * Class ScheduleEndpoint
+ * Class DriversEndpoint
  *
  * @package mrpsdk\endpoints\points
  */
-class DriversEndpoint
+class DriversEndpoint implements \mrpsdk\endpointInterfaces\drivers\DriversEndpoint
 {
     /**
      * Setters Traits Used In Endpoint
@@ -66,7 +66,7 @@ class DriversEndpoint
     private $newRequest;
 
     /**
-     * ScheduleEndpoint constructor.
+     * DriversEndpoint constructor.
      *
      * @param $apiKey
      */
