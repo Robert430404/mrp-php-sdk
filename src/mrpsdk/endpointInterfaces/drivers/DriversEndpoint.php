@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dlcimac
- * Date: 9/7/16
- * Time: 3:03 PM
- */
-namespace mrpsdk\endpointInterfaces\drivers;
 
+namespace mrpsdk\endpointInterfaces\drivers;
 
 /**
  * Class DriversEndpoint
