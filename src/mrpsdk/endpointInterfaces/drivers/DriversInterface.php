@@ -7,8 +7,7 @@ namespace mrpsdk\endpointInterfaces\drivers;
  *
  * @package mrpsdk\endpoints\points
  */
-interface DriversEndpoint
-{
+interface DriversInterface{
     /**
      * This returns the base url for validation purposes
      *

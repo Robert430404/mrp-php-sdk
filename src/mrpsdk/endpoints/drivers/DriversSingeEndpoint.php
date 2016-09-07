@@ -2,20 +2,11 @@
 
 namespace mrpsdk\endpoints\drivers;
 
-use mrpsdk\endpointInterfaces\drivers\DriversInterface;
+use mrpsdk\endpointInterfaces\drivers\DriversSingleInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
-use mrpsdk\endpointTraits\setters\ClassIdTrait;
-use mrpsdk\endpointTraits\setters\CurrentPageTrait;
-use mrpsdk\endpointTraits\setters\FeaturedOnlyTrait;
-use mrpsdk\endpointTraits\setters\ForcePicTrait;
-use mrpsdk\endpointTraits\setters\IncludeStatsTrait;
-use mrpsdk\endpointTraits\setters\OrderTrait;
-use mrpsdk\endpointTraits\setters\PageSizeTrait;
-use mrpsdk\endpointTraits\setters\ScheduleYearTrait;
-use mrpsdk\endpointTraits\setters\TagIdTrait;
-use mrpsdk\endpointTraits\setters\TagTypeTrait;
+use mrpsdk\endpointTraits\setters\DriverIdTrait;
 use mrpsdk\helpers\RequestHelpers;
 
 /**
@@ -23,21 +14,12 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\points
  */
-class DriversEndpoint implements DriversInterface
+class DriversSingleEndpoint implements DriversSingleInterface
 {
     /**
      * Setters Traits Used In Endpoint
      */
-    use ClassIdTrait;
-    use PageSizeTrait;
-    use CurrentPageTrait;
-    use TagIdTrait;
-    use TagTypeTrait;
-    use ScheduleYearTrait;
-    use IncludeStatsTrait;
-    use ForcePicTrait;
-    use FeaturedOnlyTrait;
-    use OrderTrait;
+    use DriverIdTrait;
 
     /**
      * Getters Traits Used In Endpoint
