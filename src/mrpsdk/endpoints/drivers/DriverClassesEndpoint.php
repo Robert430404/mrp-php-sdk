@@ -2,6 +2,7 @@
 
 namespace mrpsdk\endpoints\drivers;
 
+use mrpsdk\endpointInterfaces\drivers\DriverClassesInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
@@ -19,7 +20,7 @@ use mrpsdk\helpers\RequestHelpers;
  *
  * @package mrpsdk\endpoints\points
  */
-class DriverClassesEndpoint
+class DriverClassesEndpoint implements DriverClassesInterface
 {
     /**
      * Setters Traits Used In Endpoint
