@@ -16,9 +16,9 @@ use mrpsdk\endpointTraits\setters\ScheduleYearTrait;
 use mrpsdk\helpers\RequestHelpers;
 
 /**
- * Class DriversEndpoint
+ * Class DriverClassesEndpoint
  *
- * @package mrpsdk\endpoints\points
+ * @package mrpsdk\endpoints\drivers
  */
 class DriverClassesEndpoint implements DriverClassesInterface
 {
@@ -61,7 +61,7 @@ class DriverClassesEndpoint implements DriverClassesInterface
     private $newRequest;
 
     /**
-     * DriversEndpoint constructor.
+     * DriverClassesEndpoint constructor.
      *
      * @param $apiKey
      */

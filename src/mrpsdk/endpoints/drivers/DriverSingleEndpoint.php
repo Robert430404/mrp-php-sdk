@@ -2,7 +2,7 @@
 
 namespace mrpsdk\endpoints\drivers;
 
-use mrpsdk\endpointInterfaces\drivers\DriversSingleInterface;
+use mrpsdk\endpointInterfaces\drivers\DriverSingleInterface;
 use mrpsdk\endpointTraits\getters\BaseUrlTrait;
 use mrpsdk\endpointTraits\getters\GetRequestTrait;
 use mrpsdk\endpointTraits\getters\UrlParamsTrait;
@@ -10,11 +10,11 @@ use mrpsdk\endpointTraits\setters\DriverIdTrait;
 use mrpsdk\helpers\RequestHelpers;
 
 /**
- * Class DriversEndpoint
+ * Class DriverSingleEndpoint
  *
- * @package mrpsdk\endpoints\points
+ * @package mrpsdk\endpoints\drivers
  */
-class DriversSingleEndpoint implements DriversSingleInterface
+class DriverSingleEndpoint implements DriverSingleInterface
 {
     /**
      * Setters Traits Used In Endpoint
@@ -49,7 +49,7 @@ class DriversSingleEndpoint implements DriversSingleInterface
     private $newRequest;
 
     /**
-     * DriversEndpoint constructor.
+     * DriversSingleEndpoint constructor.
      *
      * @param $apiKey
      */
