@@ -13,7 +13,7 @@ class ViewsTest extends TestCase
     public function testBaseUrlGeneration()
     {
         $newsEndpoint = new ViewsEndpoint(getenv('MRP_API_KEY'));
-        $url          = $newsEndpoint->setNewsId(0)
+        $url          = $newsEndpoint->setNewsId(1)
             ->setEndDate('8/21/2016')
             ->setStartDate('8/21/2015')
             ->getBaseUrl();
@@ -29,7 +29,7 @@ class ViewsTest extends TestCase
     public function testDataResponse()
     {
         $newsEndpoint = new ViewsEndpoint(getenv('MRP_API_KEY'));
-        $data         = $newsEndpoint->setNewsId(0)
+        $data         = $newsEndpoint->setNewsId(1)
             ->setEndDate('8/21/2016')
             ->setStartDate('8/21/2015')
             ->getRequest();
@@ -45,10 +45,10 @@ class ViewsTest extends TestCase
     public function testParamUnset()
     {
         $pointsEndpoint = new ViewsEndpoint('MRP_API_KEY');
-        $array          = $pointsEndpoint->setNewsId(0)
+        $array          = $pointsEndpoint->setNewsId(1)
             ->setEndDate('8/21/2016')
             ->setStartDate('8/21/2015')
-            ->setNewsId(0)
+            ->setNewsId(1)
             ->setEndDate('8/21/2016')
             ->setStartDate('8/21/2015')
             ->getUrlParams();
