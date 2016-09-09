@@ -56,7 +56,7 @@ class AdsEndpoint implements AdsInterface
     public function __construct($apiKey)
     {
         $this->newRequest   = new RequestHelpers();
-        $this->baseUrl      = 'https://api.myracepass.com/v2/links/';
+        $this->baseUrl      = 'https://api.myracepass.com/v2/ads/';
         $this->mrpKey       = $apiKey;
         $this->requestData  = [];
 
