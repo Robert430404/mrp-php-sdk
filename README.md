@@ -5,19 +5,27 @@
 [![codecov](https://codecov.io/gh/Robert430404/mrp-php-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/Robert430404/mrp-php-sdk)
 [![Code Climate](https://codeclimate.com/github/Robert430404/mrp-php-sdk/badges/gpa.svg)](https://codeclimate.com/github/Robert430404/mrp-php-sdk)
 
-This project is currently under active development, but once we are finished, this package will give you a quick and easy way to interact with the MyRacePass JSON API V2 inside of PHP. The goal of the project is to give the user a fluent interface to interact with the API's data, which is represented as objects.
+This package gives you a fluent interface to interact with the My Race Pass API V2. All endpoint's are supported and all of the request parameters are fully implemented. We return PHP Objects from the API for use inside of your application. 
 
-We are composer compatible, and once we hit a V 1.0 the package will be put on packagist. We are open to pull requests and issues here on Github and would appreciate as much help as possible.
+We are composer compatible, and are on packagist. We are open to pull requests and issues here on Github and would appreciate as much help as possible.
 
-## What Is Our End Goal With This Project?
+In order to install our package via Composer, please use the following command. 
 
-Our end goal is complete compatibility with [The MRP API](http://www.myracepass.com/developers/api/). The SDK will follow the same requirements that the API documentation describes for each endpoint.
+    composer require robert430404/mrp-php-sdk
 
-This is also the first of, hopefully, a number of projects for various programming languages. (ie. JavaScript, Ruby, .NET CORE, etc...) If you have experience in a different language and would like to help spear head another project, please feel free to reach out to me and ask about doing so.
+Or add this line to your composer.json
+    
+    "require": {
+        "robert430404/mrp-php-sdk": "1.0.0"
+    }
+
+## Information About The MRP API V2
+
+We have complete compatibility with [The MRP API](http://www.myracepass.com/developers/api/). The SDK will follow the same requirements that the API documentation describes for each endpoint.
 
 ## Some Basic Documentation
 
-Ideally once the tool is developed, you would simply require the package through your composer.json, make sure you have the composer autoloader included, and then start using our objects like so.
+Using the package in a standalone application is very simple. Instantiate an instance of the object and pass in your API key via the constructor. From there simply call methods from the object to create your call and get your data returned to you.
 
 ```php
 <?php
@@ -36,8 +44,6 @@ class YourClass
      */
     public function __construct()
     {
-        // You should really set this up in a config file
-        // of sorts (ie. Laravel ENV, Symfony YAML, etc...)
         $apiKey = 'XXXXXXX-XXXX-XXXXXX-XXXXXXXXXX';
              
         $this->pointsEndpoint = new PointsEndpoint($apiKey);
@@ -50,13 +56,11 @@ class YourClass
      */
     public function returnData()
     {
-        // Returns an object with data from MRP API
-        $data = $this->pointsEndpoint
-                     ->setScheduleId(1000)
-                     ->setClassId(1000)
-                     ->getRequest();
+        $data = $this->pointsEndpoint      // Your Object
+                     ->setScheduleId(1000) // Builds URL
+                     ->setClassId(1000)    // Builds URL
+                     ->getRequest();       // Sends Request And Returns Data
             
-        // Return your data object
         return $data;
     }
 }
