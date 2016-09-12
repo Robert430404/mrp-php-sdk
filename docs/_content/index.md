@@ -1,6 +1,6 @@
-Title: MyRacePass PHP SDK
+Title: MyRacePass PHP SDK Documentation
 ---
-# Welcome To The MyRacePass PHP SDK Documentation
+# MyRacePass PHP SDK Documentation
 
 This package gives you a fluent interface to interact with the My Race Pass API V2. All endpoint's are supported and all of the request parameters are fully implemented. We return PHP Objects from the API for use inside of your application. 
 

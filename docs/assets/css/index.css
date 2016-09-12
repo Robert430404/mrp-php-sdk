@@ -22,6 +22,18 @@ p {
     width: 33.333%;
     float: left;
 }
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+.sidebar li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar .endpoint-menu {
+    display: none;
+}
 
 .content {
     width: 66.666%;
