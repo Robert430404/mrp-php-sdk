@@ -1,5 +1,6 @@
 # MyRacePass PHP SDK 
 
+[![Latest Stable Version](https://poser.pugx.org/robert430404/mrp-php-sdk/v/stable)](https://packagist.org/packages/robert430404/mrp-php-sdk)
 [![Build Status](https://travis-ci.org/Robert430404/mrp-php-sdk.svg?branch=master)](https://travis-ci.org/Robert430404/mrp-php-sdk)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Robert430404/mrp-php-sdk/blob/master/LICENSE)
 [![codecov](https://codecov.io/gh/Robert430404/mrp-php-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/Robert430404/mrp-php-sdk)
