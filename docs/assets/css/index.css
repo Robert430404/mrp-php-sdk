@@ -1,3 +1,4 @@
+/** Global CSS **/
 body {
     background: #ECEDEE;
     color: #2b2b2b;
@@ -9,4 +10,20 @@ a {
 p {
     line-height: 1.45;
     font-weight: 300;
+}
+
+/** Layout CSS **/
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 33.333%;
+    float: left;
+}
+
+.content {
+    width: 66.666%;
+    float: right;
 }
