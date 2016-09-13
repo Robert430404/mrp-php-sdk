@@ -67,6 +67,9 @@ code{
 .sidebar li:last-child {
     border-bottom: 0;
 }
+.sidebar li.endpoint-title {
+    cursor: pointer;
+}
 .sidebar .endpoint-menu {
     display: none;
 }
