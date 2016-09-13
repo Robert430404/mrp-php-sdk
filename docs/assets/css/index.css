@@ -29,8 +29,8 @@ p {
     background: transparent !important;
 }
 pre {
-    margin: 0 0 15px;
-    padding: 10px 15px;
+    margin: 0 0 15px !important;
+    padding: 10px 15px !important;
     border-radius: 4px;
     color: #FFFFFF;
     background: rgba(00,00,00,.75) !important;
@@ -89,6 +89,9 @@ pre[class*=language-]{
 }
 .sidebar li.endpoint-title {
     cursor: pointer;
+}
+.sidebar li.endpoint-title a {
+    text-decoration: none;
 }
 .sidebar .endpoint-menu {
     display: none;
