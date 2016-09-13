@@ -3,6 +3,7 @@ body {
     background: #ECEDEE;
     color: #2b2b2b;
     font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+    letter-spacing: 1px;
 }
 a {
     color: #c9302c;

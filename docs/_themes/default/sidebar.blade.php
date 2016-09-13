@@ -1,3 +1,4 @@
+<h2>Endpoints</h2>
 <ul class="endpoints">
     <li class="endpoint-title">
         News
