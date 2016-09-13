@@ -55,14 +55,13 @@ code{
     padding: 0;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
-    background: #ECEDEE;
-    box-shadow: 0px 2px 6px rgba(00,00,00,.65);
+    background: #CCCCCC;
+    box-shadow: 0px 5px 15px rgba(00,00,00,.35);
 }
 .sidebar li {
     list-style: none;
     margin: 0;
-    padding: 10px 15px;
-    box-shadow: inset 0px -25px 50px -25px #CCCCCC;
+    padding: 15px;
     border-bottom: 1px solid #FFFFFF;
 }
 .sidebar li:last-child {
