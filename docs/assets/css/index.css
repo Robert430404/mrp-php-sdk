@@ -62,7 +62,7 @@ code{
     list-style: none;
     margin: 0;
     padding: 10px 15px;
-    box-shadow: inset 0px -25px 50px -25px #FFFFFF;
+    box-shadow: inset 0px -25px 50px -25px #CCCCCC;
     border-bottom: 1px solid #FFFFFF;
 }
 .sidebar li:last-child {
