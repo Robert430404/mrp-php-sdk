@@ -1,3 +1,3 @@
-Document.querySelector('.endpoint-title').onclick = function (){
+document.querySelector('.endpoint-title').onclick = function (){
     console.log(this);
 }
