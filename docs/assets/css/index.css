@@ -53,16 +53,16 @@ code{
 .sidebar ul {
     margin: 0;
     padding: 0;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #CCCCCC;
     border-radius: 4px;
-    background: #CCCCCC;
+    background: #FFFFFF;
     box-shadow: 0px 5px 15px rgba(00,00,00,.35);
 }
 .sidebar li {
     list-style: none;
     margin: 0;
-    padding: 15px;
-    border-bottom: 1px solid #FFFFFF;
+    padding: 12px;
+    border-bottom: 1px solid #CCCCCC;
 }
 .sidebar li:last-child {
     border-bottom: 0;
