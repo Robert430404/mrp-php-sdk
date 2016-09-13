@@ -9,10 +9,14 @@ In order to install our package via Composer, please use the following command.
     composer require robert430404/mrp-php-sdk
 
 Or add these lines to a new composer.json
-    
+
+```json
+{
     "require": {
         "robert430404/mrp-php-sdk": "1.0.0"
     }
+}
+```
 
 ## Information About The MRP API V2
 
