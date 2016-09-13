@@ -49,6 +49,27 @@ pre[class*=language-]{
     -moz-border-radius: 3px !important;
     border-radius: 3px !important;
 }
+strong {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+table {
+    background: rgba(00,00,00,.75);
+    color: #FFFFFF;
+    font-size: 14px;
+    border: 10px solid #3B3B3C;
+    width: 100%;
+    margin: 0 0 15px;
+}
+table td,
+table th {
+    padding: 5px;
+    font-weight: 300;
+}
+table th {
+    font-weight: 500;
+    text-transform: uppercase;
+}
 
 /** Layout CSS **/
 .container {
@@ -62,8 +83,8 @@ pre[class*=language-]{
     width: 25%;
     float: left;
     background: #FFFFFF;
-    padding: 1000px 0;
-    margin: -1000px 0;
+    padding: 10000px 0;
+    margin: -10000px 0;
     border: 1px solid #CCCCCC;
     border-top: 0;
     border-bottom: 0;
