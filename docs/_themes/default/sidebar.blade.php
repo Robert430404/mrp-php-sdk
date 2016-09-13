@@ -4,7 +4,13 @@
         News
         <ul class="endpoint-menu">
             <li class="endpoint">
-                <a href="">Link Goes Here</a>
+                <a href="{{ $config['base_url'] . 'news' }}">/v2/news/</a>
+            </li>
+            <li class="endpoint">
+                <a href="{{ $config['base_url'] . 'news/single' }}">/v2/news/?NewsId={id}</a>
+            </li>
+            <li class="endpoint">
+                <a href="{{ $config['base_url'] . 'news/views' }}">/v2/news/views/</a>
             </li>
         </ul>
     </li>
