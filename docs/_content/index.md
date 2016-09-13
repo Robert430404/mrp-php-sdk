@@ -4,9 +4,11 @@ Title: MyRacePass PHP SDK Documentation
 
 The MyRacePass PHP SDK gives you a fluent interface to interact with the My Race Pass API V2. All endpoint's are supported and all of the request parameters are fully implemented. We return PHP Objects from the API for use inside of your application. 
 
-In order to install our package via Composer, please use the following command. 
+In order to install our package via Composer, please use the following command.
 
-    composer require robert430404/mrp-php-sdk
+```bash
+composer require robert430404/mrp-php-sdk
+```
 
 Or add these lines to a new composer.json
 
