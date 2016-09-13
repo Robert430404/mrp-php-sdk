@@ -5,7 +5,6 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="<?php echo e($config['base_url'] . $config['css_path'] . 'reset.css'); ?>" />
         <link rel="stylesheet" href="<?php echo e($config['base_url'] . $config['css_path'] . 'index.css'); ?>" />
-        <script src="<?php echo e($config['base_url'] . $config['js_path'] . 'index.js'); ?>"></script>
     </head>
 
     <body>
@@ -18,5 +17,6 @@
                 <?php echo $__env->yieldContent('content'); ?>
             </div>
         </div>
+        <script src="<?php echo e($config['base_url'] . $config['js_path'] . 'index.js'); ?>"></script>
     </body>
 </html>

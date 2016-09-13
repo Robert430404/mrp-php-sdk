@@ -1,5 +1,6 @@
 site_title: MyRacePass API PHP SDK Documentation
 theme: default
 base_url: https://robert430404.github.io/mrp-php-sdk/
+#base_url: http://localhost:63342/mrp-php-sdk/docs/
 css_path: assets/css/
 js_path: assets/js/
