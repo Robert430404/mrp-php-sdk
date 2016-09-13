@@ -33,12 +33,18 @@ pre {
     background: rgba(00,00,00,.75);
 }
 pre,
-code{
+code,
+pre[class*=language-]{
     font-size: 14px;
     line-height: 1.25;
     letter-spacing: 0;
     font-weight: 500;
     font-family: monospace;
+    border: 0 !important;
+    box-shadow: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
 }
 
 /** Layout CSS **/
