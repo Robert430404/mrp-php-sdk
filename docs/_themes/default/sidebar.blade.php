@@ -1,5 +1,8 @@
 <h2 class="sidebar-title">Endpoints</h2>
 <ul class="endpoints">
+    <li class="endpoint-title">
+        <a href="{{ $config['base_url'] }}">Overview</a>
+    </li>
     <li class="endpoint-title" onclick="showLinks(this)">
         News
         <ul class="endpoint-menu">
