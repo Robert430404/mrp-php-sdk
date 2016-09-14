@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait PageSizeTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait PageSizeTrait
 {
     /**

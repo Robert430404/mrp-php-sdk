@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait FutureCountTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait FutureCountTrait
 {
     /**

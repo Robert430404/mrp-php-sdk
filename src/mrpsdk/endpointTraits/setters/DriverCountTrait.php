@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait DriverCountTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait DriverCountTrait
 {
     /**

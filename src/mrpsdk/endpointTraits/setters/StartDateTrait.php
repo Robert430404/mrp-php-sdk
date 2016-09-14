@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait StartDateTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait StartDateTrait
 {
     /**

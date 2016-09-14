@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\links;
 
 /**
- * Class LinksEndpoint
+ * Interface LinksInterface
  *
- * @package mrpsdk\endpoints\links
+ * @package mrpsdk\endpointInterfaces\links
  */
 interface LinksInterface
 {

@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\stats;
 
 /**
- * Class LinksEndpoint
+ * Interface StatsInterface
  *
- * @package mrpsdk\endpoints\stats
+ * @package mrpsdk\endpointInterfaces\stats
  */
 interface StatsInterface
 {

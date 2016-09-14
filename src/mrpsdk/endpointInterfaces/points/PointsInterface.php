@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\points;
 
 /**
- * Class PointsEndpoint
+ * Interface PointsInterface
  *
- * @package mrpsdk\endpoints\points
+ * @package mrpsdk\endpointInterfaces\points
  */
 interface PointsInterface
 {

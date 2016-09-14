@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait PastCountTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait PastCountTrait
 {
     /**

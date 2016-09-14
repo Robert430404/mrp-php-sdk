@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait FeaturedOnlyTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait FeaturedOnlyTrait
 {
     /**

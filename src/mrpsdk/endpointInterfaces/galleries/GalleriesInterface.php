@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\galleries;
 
 /**
- * Class GalleriesEndpoint
+ * Interface GalleriesInterface
  *
- * @package mrpsdk\endpoints\galleries
+ * @package mrpsdk\endpointInterfaces\galleries
  */
 interface GalleriesInterface
 {

@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\ads;
 
 /**
- * Class AdsEndpoint
+ * Interface AdsInterface
  *
- * @package mrpsdk\endpoints\links
+ * @package mrpsdk\endpointInterfaces\ads
  */
 interface AdsInterface
 {

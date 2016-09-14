@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait IncludeImagesTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait IncludeImagesTrait
 {
     /**

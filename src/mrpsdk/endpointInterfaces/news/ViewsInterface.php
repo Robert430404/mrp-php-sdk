@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\news;
 
 /**
- * Class ViewsEndpoint
+ * Interface ViewsInterface
  *
- * @package mrpsdk\endpoints\news
+ * @package mrpsdk\endpointInterfaces\news
  */
 interface ViewsInterface
 {

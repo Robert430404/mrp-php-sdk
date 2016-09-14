@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait SearchTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait SearchTrait
 {
     /**

@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait EventCountTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait EventCountTrait
 {
     /**

@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\carClasses;
 
 /**
- * Class ClassesEndpoint
+ * Interface ClassesInterface
  *
- * @package mrpsdk\endpoints\ads
+ * @package mrpsdk\endpointInterfaces\carClasses
  */
 interface ClassesInterface
 {

@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait PlacementTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait PlacementTrait
 {
     /**

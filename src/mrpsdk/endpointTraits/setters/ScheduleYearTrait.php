@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait ScheduleYearTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait ScheduleYearTrait
 {
     /**

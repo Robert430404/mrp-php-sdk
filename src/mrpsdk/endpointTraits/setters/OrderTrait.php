@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait OrderTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait OrderTrait
 {
     /**

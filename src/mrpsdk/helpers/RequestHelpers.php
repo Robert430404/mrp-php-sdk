@@ -2,6 +2,11 @@
 
 namespace mrpsdk\helpers;
 
+/**
+ * Class RequestHelpers
+ *
+ * @package mrpsdk\helpers
+ */
 class RequestHelpers
 {
     /**

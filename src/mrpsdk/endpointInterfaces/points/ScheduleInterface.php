@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\points;
 
 /**
- * Class ScheduleEndpoint
+ * Interface ScheduleInterface
  *
- * @package mrpsdk\endpoints\points
+ * @package mrpsdk\endpointInterfaces\points
  */
 interface ScheduleInterface
 {

@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\schedulesResults;
 
 /**
- * Class SchedulesEndpoint
+ * Interface SchedulesInterface
  *
- * @package mrpsdk\endpoints\schedulesResults
+ * @package mrpsdk\endpointInterfaces\schedulesResults
  */
 interface SchedulesInterface
 {

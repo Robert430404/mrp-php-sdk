@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait NewsIdTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait NewsIdTrait
 {
     /**

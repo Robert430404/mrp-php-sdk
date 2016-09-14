@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait PinnedNumberTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait PinnedNumberTrait
 {
     /**

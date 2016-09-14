@@ -1,17 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dlcimac
- * Date: 9/2/16
- * Time: 4:12 PM
- */
+
 namespace mrpsdk\endpointInterfaces\schedulesResults;
 
-
 /**
- * Class DriverPassesEndpoint
+ * Interface DriverPassesInterface
  *
- * @package mrpsdk\endpoints\schedulesResults
+ * @package mrpsdk\endpointInterfaces\schedulesResults
  */
 interface DriverPassesInterface
 {

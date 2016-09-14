@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\getters;
 
+/**
+ * Trait BaseUrlTrait
+ *
+ * @package mrpsdk\endpointTraits\getters
+ */
 trait BaseUrlTrait
 {
     /**

@@ -1,7 +1,11 @@
 <?php
 
 namespace mrpsdk\endpointTraits\setters;
-
+/**
+ * Trait NewsTypeIdTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait NewsTypeIdTrait
 {
     /**

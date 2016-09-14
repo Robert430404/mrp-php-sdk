@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait GalleryIdTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait GalleryIdTrait
 {
     /**

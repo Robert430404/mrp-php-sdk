@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait DateOrderTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait DateOrderTrait
 {
     /**

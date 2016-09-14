@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\staff;
 
 /**
- * Class StaffEndpoint
+ * Interface StaffInterface
  *
- * @package mrpsdk\endpoints\staff
+ * @package mrpsdk\endpointInterfaces\staff
  */
 interface StaffInterface
 {

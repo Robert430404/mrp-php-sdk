@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait EventIdTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait EventIdTrait
 {
     /**

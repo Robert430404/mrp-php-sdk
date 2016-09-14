@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait TagTypeTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait TagTypeTrait
 {
     /**

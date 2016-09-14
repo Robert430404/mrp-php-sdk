@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait IncludeClassTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait IncludeClassTrait
 {
     /**

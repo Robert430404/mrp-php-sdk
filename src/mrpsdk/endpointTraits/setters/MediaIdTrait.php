@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait MediaIdTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait MediaIdTrait
 {
     /**

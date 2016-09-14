@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\media;
 
 /**
- * Class MediaEndpoint
+ * Interface MediaInterface
  *
- * @package mrpsdk\endpoints\media
+ * @package mrpsdk\endpointInterfaces\media
  */
 interface MediaInterface
 {

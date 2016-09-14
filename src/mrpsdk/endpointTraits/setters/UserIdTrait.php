@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait UserIdTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait UserIdTrait
 {
     /**

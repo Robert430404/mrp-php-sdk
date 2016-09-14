@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait CurrentPageTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait CurrentPageTrait
 {
     /**

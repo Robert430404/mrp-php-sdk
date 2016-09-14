@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\getters;
 
+/**
+ * trait GetRequestTrait
+ *
+ * @package mrpsdk\endpointTraits\getters
+ */
 trait GetRequestTrait
 {
     /**

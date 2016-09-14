@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\drivers;
 
 /**
- * Class DriversEndpoint
+ * Interface DriverClassesInterface
  *
- * @package mrpsdk\endpoints\points
+ * @package mrpsdk\endpointInterfaces\drivers
  */
 interface DriverClassesInterface
 {

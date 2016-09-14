@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\points;
 
 /**
- * Class YearsEndpoint
+ * Interface YearsInterface
  *
- * @package mrpsdk\endpoints\points
+ * @package mrpsdk\endpointInterfaces\points
  */
 interface YearsInterface
 {

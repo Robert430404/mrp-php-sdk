@@ -3,9 +3,9 @@
 namespace mrpsdk\endpointInterfaces\crew;
 
 /**
- * Class CrewEndpoint
+ * Interface CrewInterface
  *
- * @package mrpsdk\endpoints\crew
+ * @package mrpsdk\endpointInterfaces\crew
  */
 interface CrewInterface
 {

@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait FeedCountTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait FeedCountTrait
 {
     /**

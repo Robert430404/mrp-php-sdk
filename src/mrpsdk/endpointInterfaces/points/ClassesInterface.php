@@ -1,17 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dlcimac
- * Date: 9/2/16
- * Time: 3:13 PM
- */
+
 namespace mrpsdk\endpointInterfaces\points;
 
-
 /**
- * Class ClassesEndpoint
+ * Interface ClassesInterface
  *
- * @package mrpsdk\endpoints\points
+ * @package mrpsdk\endpointInterfaces\points
  */
 interface ClassesInterface
 {

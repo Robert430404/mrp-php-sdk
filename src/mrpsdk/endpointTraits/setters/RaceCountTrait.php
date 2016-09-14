@@ -2,6 +2,11 @@
 
 namespace mrpsdk\endpointTraits\setters;
 
+/**
+ * Trait RaceCountTrait
+ *
+ * @package mrpsdk\endpointTraits\setters
+ */
 trait RaceCountTrait
 {
     /**
