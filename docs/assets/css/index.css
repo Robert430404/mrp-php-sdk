@@ -124,6 +124,7 @@ table th {
 }
 .sidebar .endpoint-menu a {
     text-decoration: none;
+    font-size: 12px;
 }
 .sidebar .endpoint-menu a:hover {
     color: #999999;

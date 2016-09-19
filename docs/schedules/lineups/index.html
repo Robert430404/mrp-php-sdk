@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>News Views Endpoint Documentation - MyRacePass API PHP SDK Documentation</title>
+        <title>MyRacePass API PHP SDK Documentation</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="https://robert430404.github.io/mrp-php-sdk/assets/css/reset.css" />
         <link rel="stylesheet" href="https://robert430404.github.io/mrp-php-sdk/assets/css/index.css" />
@@ -149,136 +149,7 @@
 </ul>            </div>
 
             <div class="content">
-                	<h1>News Views Endpoint Documentation</h1>
-<p>This section covers all of the methods and implementation details for the news views endpoint of the SDK/API. Read about the API behavior and requirements <a href="http://www.myracepass.com/developers/api/?c=1217&amp;i=20200">here</a>.</p>
-<h1>Endpoint Methods</h1>
-<p>There are two types of methods associated with this object. Setter methods and Getter methods. The setter methods are what is used to build your request, while the getter methods are used for validation/testing and actually &quot;getting&quot; your data from the endpoint.</p>
-<p>The chart outlines all of the methods on this endpoint.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Method Name</th>
-<th style="text-align: left;">Method Description</th>
-<th style="text-align: left;">Method Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">setNewsId</td>
-<td style="text-align: left;">This method sets the news id for the call</td>
-<td style="text-align: left;">Setter</td>
-</tr>
-<tr>
-<td style="text-align: left;">setStartDate</td>
-<td style="text-align: left;">This method sets the start date for the call</td>
-<td style="text-align: left;">Setter</td>
-</tr>
-<tr>
-<td style="text-align: left;">setEndDate</td>
-<td style="text-align: left;">This method sets the end date for the call</td>
-<td style="text-align: left;">Setter</td>
-</tr>
-<tr>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">getBaseUrl</td>
-<td style="text-align: left;">This method gets the base URL used in the call</td>
-<td style="text-align: left;">Getter</td>
-</tr>
-<tr>
-<td style="text-align: left;">getUrlParams</td>
-<td style="text-align: left;">This method gets the current parameters for the url</td>
-<td style="text-align: left;">Getter</td>
-</tr>
-<tr>
-<td style="text-align: left;">getRequest</td>
-<td style="text-align: left;">This method executes a GET request and returns the Data</td>
-<td style="text-align: left;">Getter</td>
-</tr>
-</tbody>
-</table>
-<h1>Endpoint Method Examples</h1>
-<p>Since this endpoint has no required fields, you can simply create the object and pass the request with no other methods required.</p>
-<p><strong> Below Is A Basic Example Of The Endpoint </strong></p>
-<pre><code class="language-php">&lt;?php
-
-use mrpsdk\endpoints\news\ViewsEndpoint;
-
-class NewsClass
-{
-    /**
-     * @var ViewsEndpoint
-     */
-    protected $viewsEndpoint;
-
-    /**
-     * YourClass constructor.
-     */
-    public function __construct()
-    {
-        $apiKey = 'XXXXXXX-XXXX-XXXXXX-XXXXXXXXXX';
-
-        $this-&gt;viewsEndpoint = new ViewsEndpoint($apiKey);
-    }
-
-    /**
-     * Returns Data From The MRP API In Object Form From JSON
-     * 
-     * @return mixed
-     */
-    public function returnNewsView()
-    {
-        $data = $this-&gt;viewsEndpoint // Your Object
-                     -&gt;getRequest(); // Sends Request And Returns Data
-
-        return $data;
-    }
-}</code></pre>
-<p>There are also more advanced use cases of this endpoint as well. For specific's on usage of the endpoints full features, please reference the API documentation <a href="http://www.myracepass.com/developers/api/?c=1217&amp;i=20200">here</a>.</p>
-<p><strong> Below is an example with all methods chained </strong></p>
-<pre><code class="language-php">&lt;?php
-
-use mrpsdk\endpoints\news\ViewsEndpoint;
-
-class NewsClass
-{
-    /**
-     * @var ViewsEndpoint
-     */
-    protected $viewsEndpoint;
-
-    /**
-     * YourClass constructor.
-     */
-    public function __construct()
-    {
-        $apiKey = 'XXXXXXX-XXXX-XXXXXX-XXXXXXXXXX';
-
-        $this-&gt;viewsEndpoint = new ViewsEndpoint($apiKey);
-    }
-
-    /**
-     * Returns Data From The MRP API In Object Form From JSON
-     * 
-     * @return mixed
-     */
-    public function returnNewsView()
-    {
-        $data = $this-&gt;viewsEndpoint              // Your Object
-                     -&gt;setNewsId(1)               // Expects Integer
-                     -&gt;setStartDate('08/01/2015') // Expects Date in String Form
-                     -&gt;setEndDate('08/01/2016')   // Expects Date in String Form
-                     -&gt;getRequest();              // Sends Request And Returns Data
-
-        return $data;
-    }
-}</code></pre>
+                	
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.min.js"></script>
