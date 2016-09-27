@@ -26,6 +26,8 @@ We have complete compatibility with [The MRP API](http://www.myracepass.com/deve
 
 ## Some Basic Documentation
 
+More In Depth Documentation Can Be Found [Here](https://robert430404.github.io/mrp-php-sdk/) ** It is currently under development **
+
 Using the package in a standalone application is very simple. Instantiate an instance of the object and pass in your API key via the constructor. From there simply call methods from the object to create your call and get your data returned to you.
 
 ```php
